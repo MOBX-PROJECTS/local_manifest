@@ -19,6 +19,16 @@
 		name="greenforce-project"
 		fetch="https://github.com/greenforce-project"/>
 
+	<remote 
+		name="pixel-devices"
+		fetch="https://github.com/PixelExperience-Devices"
+		revision="thirteen" />
+
+	<remote
+		name="pixel-devices-blobs"
+		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+		revision="thirteen" />
+
 	<!-- DT/VT/KT/TC -->
 	<project
 		path="device/xiaomi/chime"
@@ -49,13 +59,13 @@
 		
 	<!-- HALS -->
 	<remove-project
-		name="hardware_qcom-caf_sm8250_audio"/>
+		name="android_hardware_qcom_audio"/>
 
 	<remove-project
-		name="hardware_qcom-caf_sm8250_display"/>
+		name="android_hardware_qcom_display"/>
 
 	<remove-project
-		name="hardware_qcom-caf_sm8250_media"/>
+		name="android_hardware_qcom_media"/>
 
 	<project
 		path="hardware/qcom-caf/sm8250/audio"
@@ -80,23 +90,14 @@
 
 	<!-- Replacement -->
 	<remove-project
-		name="vendor_pixel-framework"/>
-
-	<project
-		path="vendor/pixel-framework"
-		name="vendor_pixel-framework"
-		remote="c3eru"
-		revision="staging"/>
-
-	<remove-project
 		name="frameworks_base"/>
 
 	<project
 		path="frameworks/base"
-		name="fwb_aosp"
+		name="fwb_derp"
 		groups="pdk-cw-fs,pdk-fs"
 		remote="c3eru"
-		revision="staging"
+		revision="dsb"
 		clone-depth="1"/>
 
 	<remove-project
@@ -104,7 +105,7 @@
 
 	<project
 		path="packages/apps/Settings"
-		name="Settings"
+		name="settings_derp"
 		remote="c3eru"
 		revision="staging"/>
 
