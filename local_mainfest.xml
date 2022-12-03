@@ -37,9 +37,9 @@
 	<!-- DT/VT/KT/TC -->
 	<project
 		path="device/xiaomi/chime"
-		name="dtawaken"
-		remote="c3eru"
-		revision="derps"
+		name="device_xiaomi_chime"
+		remote="MOBX-PROJECTS"
+		revision="thirteens"
 		clone-depth="1"/>
 
 	<project
