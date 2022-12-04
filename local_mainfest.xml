@@ -20,7 +20,7 @@
 		fetch="https://github.com/greenforce-project"/>
 
 	<remote 
-		name="gitlab"
+		name="cosm1f"
 		fetch="https://gitlab.com/cosm1f/vendor_xiaomi_chime"
 		revision="tokyo" />
 
@@ -45,7 +45,7 @@
 	<project
 		path="vendor/xiaomi/chime"
 		name="vendor_xiaomi_chime"
-		remote="gitlab"
+		remote="cosm1f"
 		clone-depth="1"/>
 
 	<project
