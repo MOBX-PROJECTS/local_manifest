@@ -20,9 +20,9 @@
 		fetch="https://github.com/greenforce-project"/>
 
 	<remote 
-		name="pixel-devices"
-		fetch="https://github.com/PixelExperience-Devices"
-		revision="thirteen" />
+		name="gitlab"
+		fetch="https://gitlab.com/cosm1f/vendor_xiaomi_chime"
+		revision="tokyo" />
 
 	<remote
 		name="pixel-devices-blobs"
@@ -45,7 +45,7 @@
 	<project
 		path="vendor/xiaomi/chime"
 		name="vendor_xiaomi_chime"
-		remote="pixel-devices-blobs"
+		remote="gitlab"
 		clone-depth="1"/>
 
 	<project
