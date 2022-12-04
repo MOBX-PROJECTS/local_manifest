@@ -21,7 +21,7 @@
 
 	<remote 
 		name="cosm1f"
-		fetch="https://gitlab.com/cosm1f/vendor_xiaomi_chime"
+		fetch="https://gitlab.com/cosm1f"
 		revision="tokyo" />
 
 	<remote 
