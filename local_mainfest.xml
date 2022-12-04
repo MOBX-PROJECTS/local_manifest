@@ -62,39 +62,7 @@
 		revision="master"
 		clone-depth="1"/>
 		
-	<!-- HALS -->
-	<remove-project
-		name="android_hardware_qcom_audio"/>
-
-	<remove-project
-		name="android_hardware_qcom_display"/>
-
-	<remove-project
-		name="android_hardware_qcom_media"/>
-
-	<project
-		path="hardware/qcom-caf/sm8250/audio"
-		name="hardware_qcom-caf_bengal_audio"
-		remote="MOBX-PROJECTS"
-		revision="thirteen"
-		clone-depth="1"/>
-
-	<project
-		path="hardware/qcom-caf/sm8250/display"
-		name="hardware_qcom-caf_bengal_display"
-		remote="MOBX-PROJECTS"
-		revision="thirteen"
-		clone-depth="1"/>
-
-	<project
-		path="hardware/qcom-caf/sm8250/media"
-		name="hardware_qcom-caf_bengal_media"
-		remote="MOBX-PROJECTS"
-		revision="thirteen"
-		clone-depth="1"/>
-
 	<!-- Replacement -->
-
 	<remove-project
 		name="android_hardware_lineage_compat"/>
 
