@@ -103,25 +103,5 @@
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
 
-	<remove-project
-		name="frameworks_base"/>
-
-	<project
-		path="frameworks/base"
-		name="fwb_derp"
-		groups="pdk-cw-fs,pdk-fs"
-		remote="c3eru"
-		revision="dsb"
-		clone-depth="1"/>
-
-	<remove-project
-		name="packages_apps_Settings"/>
-
-	<project
-		path="packages/apps/Settings"
-		name="settings_derp"
-		remote="c3eru"
-		revision="staging"/>
-
 </manifest>
 
