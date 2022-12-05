@@ -50,7 +50,7 @@
 	<project
 		path="vendor/xiaomi/chime"
 		name="vendor_xiaomi_chime"
-		remote="cosm1f"
+		remote="pixel-devices"
 		clone-depth="1"/>
 
 	<project
@@ -68,13 +68,5 @@
 		clone-depth="1"/>
 		
 	<!-- Replacement -->
-	<remove-project
-		name="android_hardware_lineage_compat"/>
-
-	<project
-		path="hardware/xiaomi"
-		name="xd_hardware_xiaomi"
-		remote="xd"/>
-
 </manifest>
 
