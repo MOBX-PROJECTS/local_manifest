@@ -20,9 +20,8 @@
 		fetch="https://github.com/greenforce-project"/>
 
 	<remote 
-		name="cosm1f"
-		fetch="https://gitlab.com/cosm1f"
-		revision="tokyo" />
+		name="fros"
+		fetch="https://github.com/frstprjkt" />
 
 	<remote 
 		name="pixel-devices"
@@ -55,9 +54,9 @@
 
 	<project
 		path="kernel/xiaomi/chime"
-		name="kernel_xiaomi_chime"
-		remote="pixel-devices"
-		revision="thirteen"
+		name="kernel_xiaomi_chime-anya"
+		remote="fros"
+		revision="twelve"
 		clone-depth="1"/>
 		
 	<project
