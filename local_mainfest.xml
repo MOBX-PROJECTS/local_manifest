@@ -48,5 +48,15 @@
 		remote="c3eru-gitlab"
 		clone-depth="1"/>
 
+	<remove-project
+		name="LineageOS/android_vendor_lineage"/>
+
+	<project
+		path="vendor/lineage"
+		name="android_vendor_lineage"
+		remote="c3eru"
+		revision="lineage-20.0"
+		clone-depth="1"/>
+
 </manifest>
 
