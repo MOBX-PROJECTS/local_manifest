@@ -42,5 +42,11 @@
 		revision="master"
 		clone-depth="1"/>
 
+	<project
+		path="vendor/gapps"
+		name="android_vendor_gapps"
+		remote="c3eru-gitlab"
+		clone-depth="1"/>
+
 </manifest>
 
