@@ -64,19 +64,19 @@
 		clone-depth="1"/>
 
 	<project
-		path="hardware/qcom-caf/sm8250/audio"
+		path="hardware/qcom-caf/audio"
 		name="hardware_qcom_audio"
 		remote="frostg-012"
 		revision="t-bengal"/>
 
 	<project
-		path="hardware/qcom-caf/sm8250/display"
+		path="hardware/qcom-caf/display"
 		name="hardware_qcom_display"
 		remote="frostg-012"
 		revision="t-bengal"/>
 
 	<project
-		path="hardware/qcom-caf/sm8250/media"
+		path="hardware/qcom-caf/media"
 		name="hardware_qcom_media"
 		remote="frostg-012"
 		revision="t-bengal"/>
