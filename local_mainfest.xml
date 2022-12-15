@@ -23,6 +23,10 @@
 		fetch="https://github.com/xdroid-oss"
 		revision="thirteen"/>
 
+	<remote
+		name="evo"
+		fetch="https://github.com/Evolution-X"
+		revision="refs/heads/tiramisu"/>
 
 	<project
 		path="device/xiaomi/chime"
@@ -56,6 +60,14 @@
 		path="hardware/xiaomi"
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
+
+	<remove-project
+		name="platform/system/libhidl"/>
+
+	<project
+		path="system/libhidl"
+		name="system_libhidl"
+		remote="evo"/>
 
 </manifest>
 
