@@ -69,5 +69,25 @@
 		name="system_libhidl"
 		remote="evo"/>
 
+	<remove-project
+		name="platform_frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="syberia_frameworks_base"
+		remote="c3eru"
+		revision="stg"
+		clone-depth="1"/>
+
+	<remove-project
+		name="platform_packages_apps_SyberiaSettings"/>
+
+	<project
+		path="packages/apps/SyberiaSettings"
+		name="platform_packages_apps_SyberiaSettings"
+		remote="c3eru"
+		revision="13.0"
+		clone-depth="1"/>
+
 </manifest>
 
