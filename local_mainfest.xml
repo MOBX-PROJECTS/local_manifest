@@ -69,5 +69,13 @@
 		name="system_libhidl"
 		remote="evo"/>
 
+	<remove-project
+		name="platform_packages_apps_Launcher3"/>
+
+	<project
+		path="packages/apps/Launcher3"
+		name="RiceDroid/android_packages_apps_Launcher3"
+		revision="thirteen"/>
+
 </manifest>
 
