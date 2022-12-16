@@ -11,8 +11,8 @@
 		fetch="https://github.com/c3eru"/>
 
 	<remote
-		name="frostg-012"
-		fetch="https://github.com/frostg-012"/>
+		name="RiceDroid"
+		fetch="https://github.com/RiceDroid"/>
 
 	<remote
 		name="satriazecho-gitlab"
@@ -74,7 +74,8 @@
 
 	<project
 		path="packages/apps/Launcher3"
-		name="RiceDroid/android_packages_apps_Launcher3"
+		name="android_packages_apps_Launcher3"
+		remote="RiceDroid"
 		revision="thirteen"/>
 
 </manifest>
