@@ -56,5 +56,8 @@
 		revision="master"
 		clone-depth="1"/>
 
+	<remove-project
+		name="android_hardware_lineage_compat"/>
+
 </manifest>
 
