@@ -32,7 +32,7 @@
 		path="device/xiaomi/chime"
 		name="device_xiaomi_chime"
 		remote="c3eru"
-		revision="syberia"
+		revision="banana"
 		clone-depth="1"/>
 
 	<project
@@ -56,17 +56,5 @@
 		revision="master"
 		clone-depth="1"/>
 
-	<project
-		path="hardware/xiaomi"
-		name="hardware_xiaomi"
-		remote="evo"/>
-
-	<remove-project
-		name="platform/system/libhidl"/>
-
-	<project
-		path="system/libhidl"
-		name="system_libhidl"
-		remote="evo"/>
 </manifest>
 
