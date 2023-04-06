@@ -29,21 +29,21 @@
 		revision="refs/heads/tiramisu"/>
 
 	<project
-		path="device/xiaomi/chime"
-		name="device_xiaomi_chime"
+		path="device/xiaomi/citrus"
+		name="dtcit"
 		remote="c3eru"
-		revision="syberia"
+		revision="banana"
 		clone-depth="1"/>
 
 	<project
-		path="vendor/xiaomi/chime"
-		name="vendor_xiaomi_chime"
-		remote="satriazecho-gitlab"
-		revision="refs/heads/test"
+		path="vendor/xiaomi/citrus"
+		name="vtcit"
+		remote="c3eru"
+		revision="13"
 		clone-depth="1"/>
 
 	<project
-		path="kernel/xiaomi/chime"
+		path="kernel/xiaomi/citrus"
 		name="kernel_xiaomi_citrus_sm6115"
 		remote="c3eru"
 		revision="main"
